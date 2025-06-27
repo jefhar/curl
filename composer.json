@@ -1,0 +1,26 @@
+{
+  "name": "jefhar/curl",
+  "description": "Curl OOP wrapper",
+  "type": "library",
+  "keywords": ["curl"],
+  "homepage": "https://github.com/jefhar/curl",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Curl\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jeff Harris",
+      "email": "jeff@jeffharris.us"
+    }
+  ],
+  "require": {
+    "php": "^8.4",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1"
+  }
+}
